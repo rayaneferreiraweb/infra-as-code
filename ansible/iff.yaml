@@ -1,0 +1,7 @@
+---
+- name: IFF
+  hosts: test-servers
+  gather_facts: true
+  tasks:
+  - name: Aula IFF!
+    shell: echo "OLÁ IFF" >> aprovacao.txt
